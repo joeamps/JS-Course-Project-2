@@ -1,1 +1,34 @@
 # JS-Course-Project-2
+
+Project: Pig Game
+
+Concept: To create a game that consists of 2 players that each roll a dice. 
+Every roll adds to player's total until the player rolls a 1.
+Program then switches to the other player. Game runs until someone hits 100.
+
+
+Functionality: 3 separate buttons: Roll, Hold, New
+Roll - allows the player to roll #1-6
+Hold - stores value and adds to overall score
+New - resets game and all values
+
+Logic: 
+-Start off with defining variables
+-Add event listeners to each button
+(
+    btnroll: will generate a random number 1-6
+    number > 1 will + to current score
+    number = 1 will switch to next player
+
+    create switch player function to toggle to player 2. 
+    btnroll will repeat
+
+    btnhold: will store the currentscore to player's overall score
+
+    Game repeats until someone reaches 100
+
+    btnNew: resets game
+    create function to initialize game
+    reset all values to 0
+)
+-Test for any bugs
